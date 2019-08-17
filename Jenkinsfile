@@ -4,7 +4,7 @@ node {
     stage('Clone repository') {
         /* Let's make sure we have repository cloned to our workspace */
 
-        checkuout scm
+        checkout scm
     }
 
     stage('Build image') {
